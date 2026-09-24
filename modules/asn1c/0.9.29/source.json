@@ -1,0 +1,15 @@
+{
+  "url": "https://github.com/vlm/asn1c/archive/8a274c3f99761f249b6c205e1c89be1b1cb7c669.tar.gz",
+  "integrity": "sha256-dheJ73wtf7rA8QdzGN1WgcDmDQlOHj74OmfFj8JYuZw=",
+  "strip_prefix": "asn1c-8a274c3f99761f249b6c205e1c89be1b1cb7c669",
+  "patch_strip": 1,
+  "patches": {
+    "bazel-modifications.patch": "sha256-lZ0uBZztwrq9abz01+eskB9SgI6K/59ExXm4cu65dCc="
+  },
+  "overlay": {
+    "MODULE.bazel": "sha256-y0pWrslMTjq8OoqCE3TTHRUkWlIgIgnCbafJnFFqKT0=",
+    "bazel/config.h.in": "sha256-RmKrUB/xtm3yG4NwhFAw1fIRg+lqwIjS0RQA7+oCH9w=",
+    "BUILD.bazel": "sha256-jXy2RZ/Qtw/6HXa1CLYl+jgT1k3shDeZ/VNjBZ2GeJw=",
+    ".bazelversion": "sha256-Hb5W+JC2LIktDlxGDWTsY8LDD/XyLhs2dsKzJ8n29Vs="
+  }
+}
